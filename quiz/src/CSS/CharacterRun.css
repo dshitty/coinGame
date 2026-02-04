@@ -1,0 +1,17 @@
+.character-run {
+  width: 100px;                  /* width of ONE frame */
+  height: 100px;                 /* height of ONE frame */
+  background-image: url('/run.png');
+  background-repeat: no-repeat;
+
+  animation: runAnim 0.6s steps(6) infinite;
+}
+
+@keyframes runAnim {
+  from { 
+    background-position: 0px; 
+  }
+  to { 
+    background-position: -600px; /* -1 × frameWidth × numberOfFrames */
+  }
+}
