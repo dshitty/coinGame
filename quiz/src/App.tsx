@@ -2,7 +2,7 @@
 import { useState } from "react"
 import Rain from "./components/Rain"
 import GameUI from "./components/GameUI"
-import Settings from "./components/settings"
+import Settings from "./components/Settings"
 import Easy from "./components/Easy"
 import Med from "./components/Med"
 import Hard from "./components/Hard"
